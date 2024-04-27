@@ -3,5 +3,7 @@ body {
 }
 
 button {
-    width: 50%;
+    width: 46%;
+    padding: 0%;
+    margin: 1%;
 }
