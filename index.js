@@ -1,10 +1,7 @@
-const causes = document.getElementById("causes")
-const trends = document.getElementById("trends")
-
-causes.onclick = function () {
+document.getElementById("causes").onclick = function () {
     location.href = "./causes"
 }
 
-trends.onclick = function () {
+document.getElementById("trends").onclick = function () {
     location.href = "./trends"
 }
