@@ -1,5 +1,5 @@
 //write code to replace  paragraph with with content.txt
-var content = document.getElementById(content)
+var content = require('content.json').content;
+var obj = document.getElementById("content")
 
-content.innerHTML() = "<p>Does this work?</p>" //IT DOESNT WORK 
-//insertAdjacentText method
+obj.insertAdjacentText("afterbegin", content);
